@@ -1,0 +1,180 @@
+.icon {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-more {
+    margin: 0;
+    background: url('../../imgs/imIcon/more.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-chat-setting {
+    background: url('../../imgs/imIcon/chat-setting.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-image {
+    margin: 12px 10px 0;
+    background: url('../../imgs/imIcon/image.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-files {
+    margin: 12px 10px 0;
+    background: url('../../imgs/imIcon/files.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-video {
+    margin: 12px 10px 0;
+    background: url('../../imgs/imIcon/video.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-face {
+    margin: 12px 10px 0;
+    background: url('../../imgs/imIcon/face.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-custom {
+    margin: 12px 10px 0;
+    background: url('../../imgs/imIcon/custom.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-location {
+    margin: 12px 10px 0;
+    background: url('../../imgs/imIcon/location.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-selected {
+    width: 16px;
+    height: 16px;
+    background: url('../../imgs/imIcon/selected.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-unselected {
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+}
+
+.icon-cancel {
+    width: 16px;
+    height: 16px;
+    background: url('../../imgs/imIcon/cancel.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-left {
+    width: 12px;
+    height: 12px;
+    background: url('../../imgs/imIcon/right.png') no-repeat;
+    background-size: contain;
+    transform: rotate(180deg);
+}
+
+.icon-right {
+    width: 12px;
+    height: 12px;
+    background: url('../../imgs/imIcon/right.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-edit {
+    width: 16px;
+    height: 16px;
+    background: url('../../imgs/imIcon/edit.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-voice {
+    width: 16px;
+    height: 16px;
+    background: url('../../imgs/imIcon/voice.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-reserve {
+    transform: rotate(180deg);
+}
+
+.icon-del {
+    width: 16px;
+    height: 16px;
+    background: url('../../imgs/imIcon/del.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-work {
+    width: 36px;
+    height: 36px;
+    background: url('../../imgs/imIcon/work.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-public {
+    width: 36px;
+    height: 36px;
+    background: url('../../imgs/imIcon/public.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-meeting {
+    width: 36px;
+    height: 36px;
+    background: url('../../imgs/imIcon/meeting.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-room {
+    width: 36px;
+    height: 36px;
+    background: url('../../imgs/imIcon/room.png') no-repeat;
+    background-size: contain;
+}
+
+.icon-close {
+    width: 16px;
+    height: 16px;
+    background: url('../../imgs/imIcon/close.png') no-repeat;
+    background-size: contain;
+}
+
+.close {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    border-radius: 50%;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        /*方便进行定位*/
+        background-color: #8F959E;
+        height: 24px;
+        width: 2px;
+        top: 50%;
+        left: 50%;
+        margin-top: -15px;
+        margin-left: -1px;
+    }
+
+    &::before {
+        transform: rotate(45deg);
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+    }
+}
